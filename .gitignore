@@ -1,0 +1,20 @@
+# block ide files
+.idea
+*.iml
+
+# python compiled file
+*.pyc
+
+# data to analyze
+data/*
+
+# virtualenv
+.venv
+.env
+
+# configuration file
+conf/*.json
+
+# logs file
+logs/*.log
+logs/*.log.*

@@ -1,0 +1,4 @@
+{
+    "key": "<AES CBC 256 bit secret Key>",
+    "iv": "<AES CBC 256 bit Initial Vector>"
+}
