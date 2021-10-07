@@ -8,7 +8,7 @@ def main():
     secret_key_in_hex = secrets.token_hex(32)
     print(secret_key_in_hex)
     print()
-    print("[in Human readable string]")
+    print("[Human-Readable HEX string]")
     print(convert_to_human_readable_string(secret_key_in_hex))
 
     print("=================================================")
@@ -16,7 +16,7 @@ def main():
     iv_in_hex = secrets.token_hex(16)
     print(iv_in_hex)
     print()
-    print("[in Human readable string]")
+    print("[Human-Readable HEX string]")
     print(convert_to_human_readable_string(iv_in_hex))
     print("=================================================")
 
